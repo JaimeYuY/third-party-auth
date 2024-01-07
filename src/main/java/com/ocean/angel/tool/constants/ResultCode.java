@@ -11,6 +11,8 @@ public enum ResultCode {
 
     Unauthorized(401, "Unauthorized"),
 
+    DATA_PERMISSION_CHECK_FAILED(403, "Data permission verification failed."),
+
     NOT_FOUND(404, "Not Found"),
 
     INTERNAL_SERVER_ERROR(500, "Internal Server Error"),

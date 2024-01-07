@@ -3,7 +3,7 @@ package com.ocean.angel.tool.exception;
 
 public class GlobalException extends Exception {
 
-    private static final long serialVersionUID = - 5583965576801968391L;
+    private static final long serialVersionUID = -5583965576801968391L;
 
     // 返回错误码
     private Integer code;

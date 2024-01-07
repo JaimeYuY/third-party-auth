@@ -1,4 +1,4 @@
-package com.ocean.angel.tool.controller;
+package com.ocean.angel.tool.adminapi;
 
 import com.ocean.angel.tool.common.BaseController;
 import com.ocean.angel.tool.domain.dto.ChannelCheckDTO;

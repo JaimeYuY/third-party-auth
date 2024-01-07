@@ -22,6 +22,7 @@ class TokenApiTest {
         signature.setAppId("4n5n0x28tpgs8pcb");
         signature.setRandom("hb@jk2ejw#");
         signature.setSign("f06e97e1780955420c47f7f4784def13");
+        log.info("{}", JSON.toJSONString(signature));
         ActionResult<TokenInfo> result = tokenApi.get(signature);
         log.info("{}", JSON.toJSONString(result));
     }
